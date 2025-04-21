@@ -16,9 +16,12 @@ author = 'Pavel Vrukhin'
 extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = ['locale']
 
 language = 'ru'
+
+locale_dirs = ['locale/']
+gettext_compact = False
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
