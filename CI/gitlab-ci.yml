@@ -1,0 +1,44 @@
+image: python:latest
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - pip config set global.proxy $http_proxy
+    - pip install -r requirements.txt
+    - mkdir build
+    - make -e SPHINXOPTS="-D language='en'" html BUILDDIR=build/en
+    - make html BUILDDIR=build/ru
+  artifacts:
+    paths:
+      - _build/
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^(\d+(\.\d+)*?)$/
+      when: always
+    - when: never
+  tags:
+    - polynomdocs
+
+pages:
+  stage: deploy
+  script:
+    - pip config set global.proxy $http_proxy
+    - pip install -r requirements.txt
+    - mkdir -p build/{en,ru}
+    - mkdir -p public/{en,ru}
+    - make -e SPHINXOPTS="-D language='en'" html BUILDDIR=build/en
+    - make html BUILDDIR=build/ru
+    - cp -r build/en/html/* public/en/
+    - cp -r build/ru/html/* public/ru/
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      when: always
+    - when: never
+  tags:
+    - polynomdocs
