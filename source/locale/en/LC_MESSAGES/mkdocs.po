@@ -19,33 +19,35 @@ msgstr ""
 
 #: ../../source/mkdocs.rst:2
 msgid "MkDocs"
-msgstr ""
+msgstr "MkDocs"
 
 #: ../../source/mkdocs.rst:5
 msgid "Создание проекта"
-msgstr ""
+msgstr "Creating a Project"
 
 #: ../../source/mkdocs.rst:7
 msgid "Создайте новый проект"
-msgstr ""
+msgstr "Create a new project"
 
 #: ../../source/mkdocs.rst:13
 msgid ""
 "Отредактируйте ``mkdocs.yml`` по `инструкции <https://squidfunk.github.io"
 "/mkdocs-material/creating-your-site/#minimal-configuration>`_"
 msgstr ""
+"Edit ``mkdocs.yml`` according to the `instructions <https://squidfunk.github.io"
+"/mkdocs-material/creating-your-site/#minimal-configuration>`_"
 
 #: ../../source/mkdocs.rst:15 ../../source/mkdocs.rst:54
 msgid "**Пример**"
-msgstr ""
+msgstr "**Example**"
 
 #: ../../source/mkdocs.rst:42
 msgid "Запустите сервер"
-msgstr ""
+msgstr "Start the server"
 
 #: ../../source/mkdocs.rst:50
 msgid "Добавление страниц"
-msgstr ""
+msgstr "Adding Pages"
 
 #: ../../source/mkdocs.rst:52
 msgid ""
@@ -53,18 +55,20 @@ msgid ""
 " добавьте их в ``mkdocs.yml``. Документация может иметь многоуровневую "
 "структуру."
 msgstr ""
+"In the ``docs`` folder, create your documentation pages in ``.md`` format and"
+" add them to ``mkdocs.yml``. The documentation can have a multi-level structure."
 
 #: ../../source/mkdocs.rst:73
 msgid "Сборка статического сайта"
-msgstr ""
+msgstr "Building a Static Site"
 
 #: ../../source/mkdocs.rst:75
 msgid "Для сборки статического сайта выполните команду"
-msgstr ""
+msgstr "To build a static site, run the command"
 
 #: ../../source/mkdocs.rst:82
 msgid "Собранные файлы можно загрузить на веб-сервер."
-msgstr ""
+msgstr "The generated files can be uploaded to a web server."
 
 #: ../../source/mkdocs.rst:86
 msgid ""
@@ -72,28 +76,31 @@ msgid ""
 "использованием `соответствующего плагина <https://squidfunk.github.io"
 "/mkdocs-material/setup/building-for-offline-usage/>`_"
 msgstr ""
+"For offline documentation distribution, build using the "
+"`appropriate plugin <https://squidfunk.github.io"
+"/mkdocs-material/setup/building-for-offline-usage/>`_"
 
 #: ../../source/mkdocs.rst:90
 msgid "Добавление переводов"
-msgstr ""
+msgstr "Adding Translations"
 
 #: ../../source/mkdocs.rst:92
 msgid "Добавьте настройки плагина локализации в ``mkdocs.yml``"
-msgstr ""
+msgstr "Add localization plugin settings to ``mkdocs.yml``"
 
 #: ../../source/mkdocs.rst:109
 msgid "Сгенерируйте файлы локализации"
-msgstr ""
+msgstr "Generate localization files"
 
 #: ../../source/mkdocs.rst:115
 msgid "Добавьте переводы строк в файлы локализации"
-msgstr ""
+msgstr "Add string translations to localization files"
 
 #: ../../source/mkdocs.rst:116
 msgid "Сгенерируйте файлы markdown"
-msgstr ""
+msgstr "Generate markdown files"
 
 #: ../../source/mkdocs.rst:122
 msgid "Выполните сборку"
-msgstr ""
+msgstr "Run the build"
 

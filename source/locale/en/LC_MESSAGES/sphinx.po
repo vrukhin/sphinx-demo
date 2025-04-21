@@ -22,29 +22,31 @@ msgstr ""
 
 #: ../../source/sphinx.rst:2
 msgid "Sphinx"
-msgstr ""
+msgstr "Sphinx"
 
 #: ../../source/sphinx.rst:5
 msgid "Создание проекта"
-msgstr ""
+msgstr "Project Creation"
 
 #: ../../source/sphinx.rst:7
 msgid "Создайте новый проект, следуя подсказкам мастера"
-msgstr ""
+msgstr "Create a new project following the wizard prompts"
 
 #: ../../source/sphinx.rst:13
 msgid ""
 "Отредактируйте ``conf.py`` по `инструкции <https://www.sphinx-"
 "doc.org/en/master/usage/configuration.html>`_"
 msgstr ""
+"Edit ``conf.py`` according to the `instructions <https://www.sphinx-"
+"doc.org/en/master/usage/configuration.html>`_"
 
 #: ../../source/sphinx.rst:15
 msgid "Запустите сервер"
-msgstr ""
+msgstr "Start the server"
 
 #: ../../source/sphinx.rst:23
 msgid "Добавление страниц"
-msgstr ""
+msgstr "Adding Pages"
 
 #: ../../source/sphinx.rst:25
 msgid ""
@@ -52,40 +54,43 @@ msgid ""
 "``.rst``. В каждой папке должен находиться файл ``index.rst``, содержащий"
 " ссылки на остальные файлы."
 msgstr ""
+"In the ``sources`` folder, create your documentation pages in "
+"``.rst`` format. Each folder must contain an ``index.rst`` file "
+"with links to other files."
 
 #: ../../source/sphinx.rst:29
 msgid "Сборка статического сайта"
-msgstr ""
+msgstr "Building a Static Site"
 
 #: ../../source/sphinx.rst:31
 msgid "Для сборки статического сайта выполните команду"
-msgstr ""
+msgstr "To build a static site, run the command"
 
 #: ../../source/sphinx.rst:37
 msgid "При наличии make-файла сборку можно запустить командой"
-msgstr ""
+msgstr "If you have a makefile, you can start the build with the command"
 
 #: ../../source/sphinx.rst:45
 msgid "Добавление переводов"
-msgstr ""
+msgstr "Adding Translations"
 
 #: ../../source/sphinx.rst:47
 msgid "Добавьте в ``conf.py`` следующие строки"
-msgstr ""
+msgstr "Add the following lines to ``conf.py``"
 
 #: ../../source/sphinx.rst:54
 msgid "Запустите сборку в формат ``gettext``"
-msgstr ""
+msgstr "Run the build in ``gettext`` format"
 
 #: ../../source/sphinx.rst:60
 msgid "Сгенерируйте файлы локализации"
-msgstr ""
+msgstr "Generate localization files"
 
 #: ../../source/sphinx.rst:66
 msgid "Добавьте переводы строк в файлы локализации"
-msgstr ""
+msgstr "Add string translations to localization files"
 
 #: ../../source/sphinx.rst:68
 msgid "Выполните сборку"
-msgstr ""
+msgstr "Run the build"
 

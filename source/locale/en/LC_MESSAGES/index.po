@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/index.rst:10
 msgid "Содержание"
-msgstr ""
+msgstr "Contents"
 
 #: ../../source/index.rst:7
 msgid "Sphinx Example documentation"
